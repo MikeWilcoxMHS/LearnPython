@@ -24,7 +24,7 @@ def turt_turn(turt):
     move_and_turn(turt, 0, 3)
 
 def draw():
-    fred = make_turtle("turtle", "green", 6)
+    fred = make_turtle("turtle", "green", 100)
 #    wilma = make_turtle("arrow", "pink", 2)
 #    dino = make_turtle("circle", "red", 5)
 
