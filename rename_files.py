@@ -12,5 +12,5 @@ def rename_files():
     os.chdir(photo_directory)
     for file_name in file_list:
         os.rename(file_name, file_name.translate(None, "0123456879"))
-
+    os.chdir(save_path)
 rename_files()
