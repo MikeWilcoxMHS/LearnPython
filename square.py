@@ -24,13 +24,13 @@ def turt_turn(turt):
     move_and_turn(turt, 0, 3)
 
 def draw():
-    fred = make_turtle("turtle", "green", 2)
+    fred = make_turtle("turtle", "green", 6)
 #    wilma = make_turtle("arrow", "pink", 2)
 #    dino = make_turtle("circle", "red", 5)
 
     window = turtle.Screen()
     window.bgcolor("black")
-    for i in range(36):
+    for i in range(120):
         draw_square(fred)
         turt_turn(fred)
     
