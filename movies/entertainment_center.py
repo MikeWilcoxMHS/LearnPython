@@ -29,6 +29,17 @@ hunger_games = media.Movie("Hunger Games", "A really real reality show",
                            "http://upload.wikimedia.org/wikipedia/en/4/42/HungerGamesPoster.jpg",
                            "https://www.youtube.com/watch?v=PbA63a7H0bo")
 
-movies = [toy_story, avatar, matrix, school_of_rock, hunger_games]
+kali_linux = media.Movie("Kali Linux Tutorial",
+                         "Learn to user Kali linux",
+                         "https://www.kali.org/wp-content/uploads/2016/08/kali-rolling-2016-2-release3-350x284.png",
+                         "https://www.youtube.com/watch?v=OcVE6rQ9_FU&list=PL4p9D8SidmadJPVQMV_P9723W0igGibVJ&index=2&t=5089s")
+
+movies = [toy_story, avatar, matrix, school_of_rock, hunger_games, kali_linux]
 
 fresh_tomatoes.open_movies_page(movies)
+#print(media.Movie.VALID_RATINGS)
+#print(media.Movie.__doc__)
+#print(hunger_games.__dict__)
+#print(hunger_games.__class__)
+#print(media.Movie.__name__)
+#print(media.Movie.__module__)
